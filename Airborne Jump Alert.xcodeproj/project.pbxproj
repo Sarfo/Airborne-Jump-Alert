@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		579CC6F02734B5F0007377F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 579CC6EF2734B5F0007377F8 /* AppDelegate.m */; };
+		579CC6F32734B5F0007377F8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 579CC6F22734B5F0007377F8 /* SceneDelegate.m */; };
+		579CC6F62734B5F0007377F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 579CC6F52734B5F0007377F8 /* ViewController.m */; };
+		579CC6F92734B5F0007377F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579CC6F72734B5F0007377F8 /* Main.storyboard */; };
+		579CC6FC2734B5F0007377F8 /* Airborne_Jump_Alert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 579CC6FA2734B5F0007377F8 /* Airborne_Jump_Alert.xcdatamodeld */; };
+		579CC6FE2734B5F5007377F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579CC6FD2734B5F5007377F8 /* Assets.xcassets */; };
+		579CC7012734B5F5007377F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579CC6FF2734B5F5007377F8 /* LaunchScreen.storyboard */; };
+		579CC7042734B5F5007377F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 579CC7032734B5F5007377F8 /* main.m */; };
+		579CC70E2734B5F5007377F8 /* Airborne_Jump_AlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 579CC70D2734B5F5007377F8 /* Airborne_Jump_AlertTests.m */; };
+		579CC7182734B5F5007377F8 /* Airborne_Jump_AlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 579CC7172734B5F5007377F8 /* Airborne_Jump_AlertUITests.m */; };
+		579CC71A2734B5F5007377F8 /* Airborne_Jump_AlertUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 579CC7192734B5F5007377F8 /* Airborne_Jump_AlertUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		579CC70A2734B5F5007377F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579CC6E32734B5F0007377F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579CC6EA2734B5F0007377F8;
+			remoteInfo = "Airborne Jump Alert";
+		};
+		579CC7142734B5F5007377F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579CC6E32734B5F0007377F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579CC6EA2734B5F0007377F8;
+			remoteInfo = "Airborne Jump Alert";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		579CC6EB2734B5F0007377F8 /* Airborne Jump Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airborne Jump Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		579CC6EE2734B5F0007377F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		579CC6EF2734B5F0007377F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		579CC6F12734B5F0007377F8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		579CC6F22734B5F0007377F8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		579CC6F42734B5F0007377F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		579CC6F52734B5F0007377F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		579CC6F82734B5F0007377F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		579CC6FB2734B5F0007377F8 /* Airborne_Jump_Alert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airborne_Jump_Alert.xcdatamodel; sourceTree = "<group>"; };
+		579CC6FD2734B5F5007377F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		579CC7002734B5F5007377F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		579CC7022734B5F5007377F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579CC7032734B5F5007377F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		579CC7092734B5F5007377F8 /* Airborne Jump AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airborne Jump AlertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		579CC70D2734B5F5007377F8 /* Airborne_Jump_AlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airborne_Jump_AlertTests.m; sourceTree = "<group>"; };
+		579CC7132734B5F5007377F8 /* Airborne Jump AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airborne Jump AlertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		579CC7172734B5F5007377F8 /* Airborne_Jump_AlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airborne_Jump_AlertUITests.m; sourceTree = "<group>"; };
+		579CC7192734B5F5007377F8 /* Airborne_Jump_AlertUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airborne_Jump_AlertUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		579CC6E82734B5F0007377F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579CC7062734B5F5007377F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579CC7102734B5F5007377F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		579CC6E22734B5F0007377F8 = {
+			isa = PBXGroup;
+			children = (
+				579CC6ED2734B5F0007377F8 /* Airborne Jump Alert */,
+				579CC70C2734B5F5007377F8 /* Airborne Jump AlertTests */,
+				579CC7162734B5F5007377F8 /* Airborne Jump AlertUITests */,
+				579CC6EC2734B5F0007377F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		579CC6EC2734B5F0007377F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579CC6EB2734B5F0007377F8 /* Airborne Jump Alert.app */,
+				579CC7092734B5F5007377F8 /* Airborne Jump AlertTests.xctest */,
+				579CC7132734B5F5007377F8 /* Airborne Jump AlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		579CC6ED2734B5F0007377F8 /* Airborne Jump Alert */ = {
+			isa = PBXGroup;
+			children = (
+				579CC6EE2734B5F0007377F8 /* AppDelegate.h */,
+				579CC6EF2734B5F0007377F8 /* AppDelegate.m */,
+				579CC6F12734B5F0007377F8 /* SceneDelegate.h */,
+				579CC6F22734B5F0007377F8 /* SceneDelegate.m */,
+				579CC6F42734B5F0007377F8 /* ViewController.h */,
+				579CC6F52734B5F0007377F8 /* ViewController.m */,
+				579CC6F72734B5F0007377F8 /* Main.storyboard */,
+				579CC6FD2734B5F5007377F8 /* Assets.xcassets */,
+				579CC6FF2734B5F5007377F8 /* LaunchScreen.storyboard */,
+				579CC7022734B5F5007377F8 /* Info.plist */,
+				579CC7032734B5F5007377F8 /* main.m */,
+				579CC6FA2734B5F0007377F8 /* Airborne_Jump_Alert.xcdatamodeld */,
+			);
+			path = "Airborne Jump Alert";
+			sourceTree = "<group>";
+		};
+		579CC70C2734B5F5007377F8 /* Airborne Jump AlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				579CC70D2734B5F5007377F8 /* Airborne_Jump_AlertTests.m */,
+			);
+			path = "Airborne Jump AlertTests";
+			sourceTree = "<group>";
+		};
+		579CC7162734B5F5007377F8 /* Airborne Jump AlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				579CC7172734B5F5007377F8 /* Airborne_Jump_AlertUITests.m */,
+				579CC7192734B5F5007377F8 /* Airborne_Jump_AlertUITestsLaunchTests.m */,
+			);
+			path = "Airborne Jump AlertUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		579CC6EA2734B5F0007377F8 /* Airborne Jump Alert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579CC71D2734B5F5007377F8 /* Build configuration list for PBXNativeTarget "Airborne Jump Alert" */;
+			buildPhases = (
+				579CC6E72734B5F0007377F8 /* Sources */,
+				579CC6E82734B5F0007377F8 /* Frameworks */,
+				579CC6E92734B5F0007377F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Airborne Jump Alert";
+			productName = "Airborne Jump Alert";
+			productReference = 579CC6EB2734B5F0007377F8 /* Airborne Jump Alert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		579CC7082734B5F5007377F8 /* Airborne Jump AlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579CC7202734B5F5007377F8 /* Build configuration list for PBXNativeTarget "Airborne Jump AlertTests" */;
+			buildPhases = (
+				579CC7052734B5F5007377F8 /* Sources */,
+				579CC7062734B5F5007377F8 /* Frameworks */,
+				579CC7072734B5F5007377F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				579CC70B2734B5F5007377F8 /* PBXTargetDependency */,
+			);
+			name = "Airborne Jump AlertTests";
+			productName = "Airborne Jump AlertTests";
+			productReference = 579CC7092734B5F5007377F8 /* Airborne Jump AlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		579CC7122734B5F5007377F8 /* Airborne Jump AlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579CC7232734B5F5007377F8 /* Build configuration list for PBXNativeTarget "Airborne Jump AlertUITests" */;
+			buildPhases = (
+				579CC70F2734B5F5007377F8 /* Sources */,
+				579CC7102734B5F5007377F8 /* Frameworks */,
+				579CC7112734B5F5007377F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				579CC7152734B5F5007377F8 /* PBXTargetDependency */,
+			);
+			name = "Airborne Jump AlertUITests";
+			productName = "Airborne Jump AlertUITests";
+			productReference = 579CC7132734B5F5007377F8 /* Airborne Jump AlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		579CC6E32734B5F0007377F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					579CC6EA2734B5F0007377F8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					579CC7082734B5F5007377F8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 579CC6EA2734B5F0007377F8;
+					};
+					579CC7122734B5F5007377F8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 579CC6EA2734B5F0007377F8;
+					};
+				};
+			};
+			buildConfigurationList = 579CC6E62734B5F0007377F8 /* Build configuration list for PBXProject "Airborne Jump Alert" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 579CC6E22734B5F0007377F8;
+			productRefGroup = 579CC6EC2734B5F0007377F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				579CC6EA2734B5F0007377F8 /* Airborne Jump Alert */,
+				579CC7082734B5F5007377F8 /* Airborne Jump AlertTests */,
+				579CC7122734B5F5007377F8 /* Airborne Jump AlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		579CC6E92734B5F0007377F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579CC7012734B5F5007377F8 /* LaunchScreen.storyboard in Resources */,
+				579CC6FE2734B5F5007377F8 /* Assets.xcassets in Resources */,
+				579CC6F92734B5F0007377F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579CC7072734B5F5007377F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579CC7112734B5F5007377F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		579CC6E72734B5F0007377F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579CC7042734B5F5007377F8 /* main.m in Sources */,
+				579CC6FC2734B5F0007377F8 /* Airborne_Jump_Alert.xcdatamodeld in Sources */,
+				579CC6F62734B5F0007377F8 /* ViewController.m in Sources */,
+				579CC6F02734B5F0007377F8 /* AppDelegate.m in Sources */,
+				579CC6F32734B5F0007377F8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579CC7052734B5F5007377F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579CC70E2734B5F5007377F8 /* Airborne_Jump_AlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579CC70F2734B5F5007377F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579CC7182734B5F5007377F8 /* Airborne_Jump_AlertUITests.m in Sources */,
+				579CC71A2734B5F5007377F8 /* Airborne_Jump_AlertUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		579CC70B2734B5F5007377F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579CC6EA2734B5F0007377F8 /* Airborne Jump Alert */;
+			targetProxy = 579CC70A2734B5F5007377F8 /* PBXContainerItemProxy */;
+		};
+		579CC7152734B5F5007377F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579CC6EA2734B5F0007377F8 /* Airborne Jump Alert */;
+			targetProxy = 579CC7142734B5F5007377F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		579CC6F72734B5F0007377F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579CC6F82734B5F0007377F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		579CC6FF2734B5F5007377F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579CC7002734B5F5007377F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		579CC71B2734B5F5007377F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		579CC71C2734B5F5007377F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		579CC71E2734B5F5007377F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Airborne Jump Alert/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Jump-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		579CC71F2734B5F5007377F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Airborne Jump Alert/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Jump-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		579CC7212734B5F5007377F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Jump-AlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airborne Jump Alert.app/Airborne Jump Alert";
+			};
+			name = Debug;
+		};
+		579CC7222734B5F5007377F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Jump-AlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airborne Jump Alert.app/Airborne Jump Alert";
+			};
+			name = Release;
+		};
+		579CC7242734B5F5007377F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Jump-AlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Airborne Jump Alert";
+			};
+			name = Debug;
+		};
+		579CC7252734B5F5007377F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Jump-AlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Airborne Jump Alert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		579CC6E62734B5F0007377F8 /* Build configuration list for PBXProject "Airborne Jump Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579CC71B2734B5F5007377F8 /* Debug */,
+				579CC71C2734B5F5007377F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579CC71D2734B5F5007377F8 /* Build configuration list for PBXNativeTarget "Airborne Jump Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579CC71E2734B5F5007377F8 /* Debug */,
+				579CC71F2734B5F5007377F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579CC7202734B5F5007377F8 /* Build configuration list for PBXNativeTarget "Airborne Jump AlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579CC7212734B5F5007377F8 /* Debug */,
+				579CC7222734B5F5007377F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579CC7232734B5F5007377F8 /* Build configuration list for PBXNativeTarget "Airborne Jump AlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579CC7242734B5F5007377F8 /* Debug */,
+				579CC7252734B5F5007377F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		579CC6FA2734B5F0007377F8 /* Airborne_Jump_Alert.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				579CC6FB2734B5F0007377F8 /* Airborne_Jump_Alert.xcdatamodel */,
+			);
+			currentVersion = 579CC6FB2734B5F0007377F8 /* Airborne_Jump_Alert.xcdatamodel */;
+			path = Airborne_Jump_Alert.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 579CC6E32734B5F0007377F8 /* Project object */;
+}
